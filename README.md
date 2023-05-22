@@ -1,6 +1,6 @@
 ## Log Parser
 
-The Log Parser is a Python class that allows you to parse log files based on a specified log format. It extracts relevant log entries from a log file and provides methods to retrieve specific fields from the log entries.
+The Log Parser is a Python tool that allows you to parse log files based on a specified log format. It extracts relevant log entries from a log file and provides methods to retrieve specific fields from the log entries.
 
 **Features**
 
