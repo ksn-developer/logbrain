@@ -45,11 +45,10 @@ Extract specific fields from the log entries using the provided methods, such as
       df = log_parser.to_df(entries)
 
 
-Additional Notes
+**Additional Notes**
 
 The log file can be read using the read_log_file method, which returns the contents of the log file as a list of strings.
 
 The print_matches method can be used to display the matched fields and their values from a log entry.
 
-Feel free to customize the code and adapt it to your specific use case. Happy log parsing!
-
+*Feel free to customize the code and adapt it to your specific use case. Happy log parsing!*
