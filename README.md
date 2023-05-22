@@ -44,7 +44,7 @@ Extract specific fields from the log entries using the provided methods, such as
 
       logs_df = log_parser.to_df(entries)
 
-  **Total distinct HTTP status cod**es
+  **Total distinct HTTP status codes**
 
     status_count = logs_df["status"].value_counts().reset_index()
     status_count.columns = ["status", "count"]
