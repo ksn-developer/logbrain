@@ -42,7 +42,16 @@ Extract specific fields from the log entries using the provided methods, such as
 
   Generate a Pandas DataFrame from the parsed log entries using the to_df method.
 
-      df = log_parser.to_df(entries)
+      logs_df = log_parser.to_df(entries)
+
+  **Total distinct HTTP status cod**es
+
+    status_count = logs_df["status"].value_counts().reset_index()
+    status_count.columns = ["status", "count"]
+    status_count
+
+    *see example.ipnb in notebooks directory*
+
 
 
 **Additional Notes**
